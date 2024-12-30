@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calculator {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .display {
+    height: 60px;
+    margin-bottom: 10px;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 1.5rem;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: #00bcd4;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0288d1;
+  }
+  
